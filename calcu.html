@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>My Calculator</title>
+    <link rel="stylesheet" href="calcu.css">
+</head>
+
+<body>
+    <div class="building">
+        <div class="apartment">
+            <input type="text" id="display" placeholder="0">
+            <button onclick="clr()" id="clrBtn">AC</button>
+            <button onclick="del()" id="delBtn">del</button>
+            <button onclick="perc()" id="percentage">%</button>
+            <button onclick="simplify('/')">/</button>
+
+            <button onclick="simplify('7')">7</button>
+            <button onclick="simplify('8')">8</button>
+            <button onclick="simplify('9')">9</button>
+            <button onclick="simplify('*')">*</button>
+
+            <button onclick="simplify('4')">4</button>
+            <button onclick="simplify('5')">5</button>
+            <button onclick="simplify('6')">6</button>
+            <button onclick="simplify('-')">-</button>
+
+            <button onclick="simplify('1')">1</button>
+            <button onclick="simplify('2')">2</button>
+            <button onclick="simplify('3')">3</button>
+            <button onclick="simplify('+')">+</button>
+
+            <button onclick="simplify('0')" id="zeroBtn">0</button>
+            <button onclick="simplify('.')">.</button>
+            <button onclick="answer()" id="answer">=</button>
+        </div>
+    </div>
+
+    <script src="calcu.js"></script>
+</body>
+
+</html>
